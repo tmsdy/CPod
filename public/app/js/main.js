@@ -1,20 +1,4 @@
 $(document).ready(function() {
-  noty({
-    text: "CPod is unmaintained and may contain security vulnerabilities. Please use other podcast apps instead.",
-    type: "error",
-
-    maxVisible: 50,
-
-    animation: {
-      open: { height: "toggle" },
-      close: { height: "toggle" },
-      easing: "swing",
-      speed: 300
-    },
-    timeout: false,
-    layout: "bottomLeft",
-    theme: "material"
-  });
 
   $(".list--episodes, .list--queue").on("click", function(e) {
     var classList = e.target.classList;
@@ -513,7 +497,7 @@ const cookieJar = Request.jar();
 const request = Request.defaults({
   jar: cookieJar,
   headers: {
-    "User-Agent": cbus.ui.browserWindow.webContents.getUserAgent()
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
   }
 });
 

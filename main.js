@@ -28,7 +28,7 @@ const DEFAULT_SETTINGS_FILE = path.join(app.getAppPath(), "public", "default_set
 const ICON_WIN = path.join(__dirname, "build/icon.ico")
 const ICON_MAC = path.join(__dirname, "build/icons/16x16.png")
 const ICON_OTHER = path.join(__dirname, "build/icon.png")
-const USER_AGENT = `CPod/${package.version} (github.com/z-------------)`;
+const USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36";
 
 let settings;
 let size = {}
@@ -331,7 +331,7 @@ autoUpdater.checkForUpdates()
       }
       if (true) {
         request({
-          url: "https://api.github.com/repos/z-------------/cumulonimbus/releases/latest",
+          url: "https://api.github.com/repos/tmsdy/CPod/releases/latest",
           headers: { "User-Agent": USER_AGENT }
         }, (err, response, body) => {
           try {
