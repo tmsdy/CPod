@@ -704,6 +704,11 @@ header {
 
     .episode_description {
       line-height: 1.3;
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
     }
 
     .episode_url {

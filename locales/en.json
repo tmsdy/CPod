@@ -183,7 +183,7 @@
   "text_search_no_results": "No results.",
 
   "welcome_heading": "Welcome to <strong>CPod</strong>",
-  "welcome_blurb": "CPod is unmaintained and may contain bugs and security vulnerabilities. Please use alternatives.",
+  "welcome_blurb": "--",
   "welcome_howto_explore": "Discover new podcasts in <strong>Explore</strong>",
   "welcome_howto_home": "Listen to the newest episodes in <strong>Home</strong>",
   "welcome_howto_queue": "Enjoy episodes back-to-back using the <strong>Queue</strong>",

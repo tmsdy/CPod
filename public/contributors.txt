@@ -1,4 +1,4 @@
-# For a list that is guaranteed to be up-to-date, visit https://github.com/z-------------/CPod/graphs/contributors
+# For a list that is guaranteed to be up-to-date, visit https://github.com/tmsdy/CPod/graphs/contributors
 
 brunofunnie
 da2x

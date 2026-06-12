@@ -12,8 +12,8 @@
 <h4 align="center">A simple, beautiful podcast app.</h4>
 
 <div align="center">
-  <a href="https://github.com/z-------------/CPod/releases"><img src="https://img.shields.io/github/release-date-pre/z-------------/CPod.svg?label=latest%20(pre)release" /></a>
-  <a href="https://github.com/z-------------/CPod/commits/master"><img src="https://img.shields.io/github/last-commit/z-------------/CPod" /></a>
+  <a href="https://github.com/tmsdy/CPod/releases"><img src="https://img.shields.io/github/release-date-pre/tmsdy/CPod.svg?label=latest%20(pre)release" /></a>
+  <a href="https://github.com/tmsdy/CPod/commits/master"><img src="https://img.shields.io/github/last-commit/tmsdy/CPod" /></a>
 </div>
 <br>
 
@@ -25,7 +25,7 @@ A review by *OMG! Ubuntu!*: [A Terrific Podcast Client with a Terrible Name](htt
 
 ## Install
 
-Get the [**latest releases**](https://github.com/z-------------/CPod/releases).
+Get the [**latest releases**](https://github.com/tmsdy/CPod/releases).
 
 Available for **Windows**, **macOS**, and **Linux**.
 

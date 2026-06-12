@@ -1,6 +1,6 @@
 {
   "name": "CPod",
-  "version": "1.28.1",
+  "version": "1.28.3",
   "description": "A simple, beautiful podcast app.",
   "main": "main.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/z-------------/CPod"
+    "url": "https://github.com/tmsdy/CPod"
   },
   "keywords": [
     "podcast",
@@ -29,9 +29,9 @@
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/z-------------/CPod/issues"
+    "url": "https://github.com/tmsdy/CPod/issues"
   },
-  "homepage": "https://github.com/z-------------/CPod",
+  "homepage": "https://github.com/tmsdy/CPod",
   "dependencies": {
     "autolinker": "^1.6.2",
     "electron-updater": "^2.20.1",

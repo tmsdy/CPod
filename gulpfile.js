@@ -64,16 +64,16 @@ gulp.task("contributors", function(done) {
   const pkg = require(path.join(__dirname, "package.json"));
 
   const PATH = path.join(__dirname, "public", "contributors.txt");
-  const BLURB = "# For a list that is guaranteed to be up-to-date, visit https://github.com/z-------------/CPod/graphs/contributors";
+  const BLURB = "# For a list that is guaranteed to be up-to-date, visit https://github.com/tmsdy/CPod/graphs/contributors";
   const MAX_TRIES = 5;
 
   let tries = 0;
 
   function doTheThing() {
     request({
-      url: "https://api.github.com/repos/z-------------/CPod/contributors",
+      url: "https://api.github.com/repos/tmsdy/CPod/contributors",
       headers: {
-        "User-Agent": `CPod v${pkg.version} (github.com/z-------------)`
+        "User-Agent": `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36`
       }
     }, (err, res, body) => {
       body = JSON.parse(body);
